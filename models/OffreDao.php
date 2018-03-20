@@ -17,7 +17,23 @@ class OffreDao extends DaoBase
     }
 
     public function readAllOffre() {
+        $result = [];
 
+        $reponse = $this->bdd->query("SELECT * FROM Offres ORDER BY ID DESC");
+
+        while($datas = $reponse->fetch()) {
+            $titre = $datas['Titre'];
+            $date = $datas['Date'];
+            $description = $datas['Description'];
+            $categorie = $datas['Categorie'];
+            $userId = $datas['userID'];
+
+            $offre = new Offre($titre, $description, $categorie, $userId, 10);
+
+            $result[] = $offre;
+        }
+
+        return $result;
     }
 
     public function readOffre() {
