@@ -122,6 +122,7 @@ ul li {
 	Header
 -------------------------------------------------------------------------------*/
 #header {
+	background-color: #009698;
 	position: fixed;
 	width: 100%;
 	z-index: 999;
@@ -140,7 +141,7 @@ ul li {
 	float: left;
 }
 #header.fixed {
-	background-color: #201f22;
+	background-color: #009698;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
@@ -315,7 +316,7 @@ ul li {
 	Banner
 -------------------------------------------------------------------------------*/
 .banner {
-	background-color: #3b3be8;
+	background-image: url("../images/photo_presentation2.jpg");
 	min-height: 750px;
 }
 .banner-text {
@@ -349,6 +350,10 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Overview
 -------------------------------------------------------------------------------*/
+#overview {
+	background-image:url("../images/patterne.png");
+}
+
   .overview-content h4 {
 	text-transform:uppercase;
 	letter-spacing:1px;
