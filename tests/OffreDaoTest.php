@@ -39,7 +39,7 @@ class OffreDaoTest extends TestCase
         $this->assertEquals("Bidon2", $offres[0]->description);
         $this->assertEquals("Inconnu2", $offres[0]->categorie);
         $this->assertEquals(2, $offres[0]->userId);
-        //$this->assertEquals(10, $offre[0]->nombreDePoints);
+
 
         $this->assertEquals("Test", $offres[1]->titre);
         $this->assertEquals("Bidon", $offres[1]->description);

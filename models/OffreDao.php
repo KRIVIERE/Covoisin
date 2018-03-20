@@ -12,8 +12,12 @@ class OffreDao extends DaoBase
         parent::__construct($config);
     }
 
-    public function createOffre() {
+    public function createOffre($offre) {
+        /*$query = $this->bdd->prepare("INSERT INTO Offres (Titre, Description, Categorie) VALUES (:titre, :description, :categorie)");
 
+        $query->bindParam(":titre", $offre->titre);
+        $query->bindParam(":description", $offre->description);
+        $query->bindParam(":titre", $offre->titre);*/
     }
 
     public function readAllOffre() {
