@@ -14,11 +14,12 @@
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #848587;
 }
 h1 {
 	font-size: 43px;
-	color: #2d3033;
+	color: #848587
+	;
 }
 h2 {
 	font-size: 30px;
@@ -99,13 +100,18 @@ ul li {
 .section-title {
 	margin-top: 0;
 	letter-spacing:2px;
+	color:#009698;
+}
+.section-title1{
+color:#009698;	
 }
 .section-title span {
 	font-weight: 400;
+	color:#009698;
 }
 .section-intro {
 	margin:5% 10% 12% 10%;
-	color: #636363;
+	color: #009698;
 	font-size:14px;
 	line-height:21px;
 	font-weight: 300;
@@ -125,7 +131,8 @@ ul li {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
-}
+	text-align: justify;
+	}
 #header .header-content {
 	margin: 0 auto;
 	max-width: 1170px;
@@ -135,6 +142,14 @@ ul li {
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
+}
+#block
+{
+background-color: #d3d7cf;
+width: 300px;
+heigth: 150px;
+-moz-border-radius: 10px; // Pour Firefox
+-webkit-border-radius: 10px; // Pour Safari et Chrome
 }
 #header .logo {
 	float: left;
@@ -254,6 +269,7 @@ ul li {
 	content: "";
 	height: 100%;
 	position: absolute;
+	
 	right: 0;
 	top: 0;
 	width: 100%;
@@ -316,7 +332,8 @@ ul li {
 -------------------------------------------------------------------------------*/
 .banner {
 	background-color: #3b3be8;
-	min-height: 750px;
+	min-height: 350
+	px;
 }
 .banner-text {
 	padding-top: 35%;
