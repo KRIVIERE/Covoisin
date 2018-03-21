@@ -93,8 +93,8 @@ ul li {
 	padding: 0;
 }
 .no-gutter [class*=col-] {
- padding-right: 0;
- padding-left: 0;
+	padding-right: 0;
+	padding-left: 0;
 }
 .section-title {
 	margin-top: 0;
@@ -349,7 +349,7 @@ ul li {
 /* ------------------------------------------------------------------------------
 	Overview
 -------------------------------------------------------------------------------*/
-  .overview-content h4 {
+.overview-content h4 {
 	text-transform:uppercase;
 	letter-spacing:1px;
 }
@@ -440,14 +440,14 @@ ul li {
 	Owl Coursol
 -------------------------------------------------------------------------------*/
 
-    #owl-demo .item {
+#owl-demo .item {
 	text-align:center;
 }
 /* ------------------------------------------------------------------------------
 	Subscribe
 -------------------------------------------------------------------------------*/
 
-	.overlay {
+.overlay {
 	background-color: rgba(60, 57, 162, 0.9);
 	height: 100%;
 	left: 0;
@@ -674,3 +674,4 @@ ul li {
 	font-size: 11px;
 	margin: 0 2px;
 }
+
