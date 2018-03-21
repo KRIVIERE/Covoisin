@@ -691,17 +691,17 @@ heigth: 150px;
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: center;
-	background-color:#009698;
+	background-color:#323232;
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #636363;
+	color: #FFFFFF;
 }
 .footer p > a {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #636363;
+	color: #FFFFFF;
 }
 .footer a {
 	font-size:18px;
