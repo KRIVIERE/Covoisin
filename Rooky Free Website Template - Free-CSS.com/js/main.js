@@ -1,14 +1,14 @@
 $(document).ready(function() {
-// Header Scroll
-/*	$(window).on('scroll', function() {
+	// Header Scroll
+	$(window).on('scroll', function() {
 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 50) {*/
+		if (scroll >= 50) {
 			$('#header').addClass('fixed');
-/*		} else {
+		} else {
 			$('#header').removeClass('fixed');
 		}
-	});*/
+	});
 
 // Owl Carousel
 	
