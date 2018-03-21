@@ -30,7 +30,7 @@ class OffreDaoTest extends TestCase
         parent::tearDown();
     }
 
-    public function testReadAllOffre() {
+    /*public function testReadAllOffre() {
         $offres = $this->offreDao->readAllOffre();
 
         $this->assertEquals(2, count($offres));
@@ -45,5 +45,18 @@ class OffreDaoTest extends TestCase
         $this->assertEquals("Bidon", $offres[1]->description);
         $this->assertEquals("Inconnu", $offres[1]->categorie);
         $this->assertEquals(1, $offres[1]->userId);
+    }*/
+
+    public function testCreateOffre() {
+        $offre = new Offre('Test5', 'Bidon5', 'Inconnu5', 5, 10);
+
+        $this->offreDao->createOffre($offre);
+
+        $offres = $this->offreDao->readAllOffre();
+
+        $this->assertEquals('Test5', $offres[0]->titre);
+        $this->assertEquals('Bidon5', $offres[0]->description);
+        $this->assertEquals('Inconnu5', $offres[0]->categorie);
+        $this->assertEquals(5, $offres[0]->userId);
     }
 }

@@ -30,7 +30,7 @@ class DemandeDaoTest extends TestCase
         parent::tearDown();
     }
 
-    public function testReadAllDemande() {
+    /*public function testReadAllDemande() {
         $demandes = $this->demandeDao->readAllDemande();
 
         $this->assertEquals(2, count($demandes));
@@ -44,5 +44,18 @@ class DemandeDaoTest extends TestCase
         $this->assertEquals("Bidon3", $demandes[1]->description);
         $this->assertEquals("Inconnu3", $demandes[1]->categorie);
         $this->assertEquals(3, $demandes[1]->userId);
+    }*/
+
+    public function testCreateDemande() {
+        $demande = new Demande('Test6', 'Bidon6', 'Inconnu6', 6, 10);
+
+        $this->demandeDao->createDemande($demande);
+
+        $demandes = $this->demandeDao->readAllDemande();
+
+        $this->assertEquals('Test6', $demandes[0]->titre);
+        $this->assertEquals('Bidon6', $demandes[0]->description);
+        $this->assertEquals('Inconnu6', $demandes[0]->categorie);
+        $this->assertEquals(6, $demandes[0]->userId);
     }
 }

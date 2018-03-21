@@ -12,8 +12,21 @@ class DemandeDao extends DaoBase
         parent::__construct($config);
     }
 
-    public function createDemande() {
+    public function createDemande($demande) {
+        $query = $this->bdd->prepare("INSERT INTO Demandes (Titre, Description, Categorie, userID) VALUES (:titre, :description, :categorie, :userId)");
 
+        $query->bindParam(":titre", $demande->titre);
+        $query->bindParam(":description", $demande->description);
+        $query->bindParam(":categorie", $demande->categorie);
+        $query->bindParam(":userId", $demande->userId);
+
+        $query->execute();
+
+        $id = $this->bdd->lastInsertId();
+
+        $demande->id = $id;
+
+        return $id;
     }
 
     public function readAllDemande() {

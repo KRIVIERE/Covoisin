@@ -13,11 +13,20 @@ class OffreDao extends DaoBase
     }
 
     public function createOffre($offre) {
-        /*$query = $this->bdd->prepare("INSERT INTO Offres (Titre, Description, Categorie) VALUES (:titre, :description, :categorie)");
+        $query = $this->bdd->prepare("INSERT INTO Offres (Titre, Description, Categorie, userID) VALUES (:titre, :description, :categorie, :userId)");
 
         $query->bindParam(":titre", $offre->titre);
         $query->bindParam(":description", $offre->description);
-        $query->bindParam(":titre", $offre->titre);*/
+        $query->bindParam(":categorie", $offre->categorie);
+        $query->bindParam(":userId", $offre->userId);
+
+        $query->execute();
+
+        $id = $this->bdd->lastInsertId();
+
+        $offre->id = $id;
+
+        return $id;
     }
 
     public function readAllOffre() {
