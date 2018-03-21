@@ -29,6 +29,7 @@ class DemandeDao extends DaoBase
             $userId = $datas['userID'];
 
             $demande = new Demande($titre, $description, $categorie, $userId, 10);
+            $demande->date = $date;
 
             $result[] = $demande;
         }

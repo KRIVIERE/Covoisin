@@ -33,6 +33,7 @@ class OffreDao extends DaoBase
             $userId = $datas['userID'];
 
             $offre = new Offre($titre, $description, $categorie, $userId, 10);
+            $offre->date = $date;
 
             $result[] = $offre;
         }
