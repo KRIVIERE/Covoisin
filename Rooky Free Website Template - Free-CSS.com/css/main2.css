@@ -161,7 +161,7 @@ ul li {
 }
 .navigation {
 	float: right;
-	padding: 20px 0;
+	padding: 50px 0;
 }
 .navigation li {
 	display: inline-block;
@@ -374,6 +374,10 @@ div#samir {
 .overview-video iframe {
 	width:800px;
 	height:450px;
+}
+
+#overview .container {
+	margin-top: 180px;
 }
 /* ------------------------------------------------------------------------------
 	Feature 1
@@ -642,20 +646,18 @@ div#samir {
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: center;
-	background-color:#201f22;
-	
-	
+	background-color:#009698;
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #636363;
+	color: #323232;
 	
 }
 .footer p > a {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #636363;
+	color: #323232;
 	
 }
 .footer a {

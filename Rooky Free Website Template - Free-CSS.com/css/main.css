@@ -69,9 +69,11 @@ h5 {
 }
 input#pseudo {
 	border-radius: 10px;
+	color: #323232;
 }
 input#mdp {
 	border-radius: 10px;
+	color: #323232;
 }
 .btn:hover, .btn:focus {
 	background-color: #e52e2e;
@@ -368,14 +370,8 @@ heigth: 150px;
 	Banner
 -------------------------------------------------------------------------------*/
 .banner {
-<<<<<<< HEAD
-	background-color: #3b3be8;
-	min-height: 350
-	px;
-=======
 	background-image: url("../images/photo_presentation2.jpg");
 	min-height: 750px;
->>>>>>> e650ea602baf18b350ff6524d88882f7e697fc2f
 }
 .banner-text {
 	padding-top: 35%;
@@ -408,17 +404,13 @@ heigth: 150px;
 /* ------------------------------------------------------------------------------
 	Overview
 -------------------------------------------------------------------------------*/
-<<<<<<< HEAD
 .overview-content h4 {
-=======
-#overview {
-	background-image:url("../images/patterne2.png");
-}
-
-  .overview-content h4 {
->>>>>>> e650ea602baf18b350ff6524d88882f7e697fc2f
 	text-transform:uppercase;
 	letter-spacing:1px;
+}
+
+#overview {
+	background-image:url("../images/patterne2.png");
 }
 .overview-content p {
 	font-family: "Roboto", sans-serif;
@@ -742,11 +734,7 @@ heigth: 150px;
 	margin: 0 2px;
 }
 
-<<<<<<< HEAD
-=======
-
 footer.section.footer {
     padding-top: 0px;
     padding-bottom: 0px;
 }
->>>>>>> e650ea602baf18b350ff6524d88882f7e697fc2f
