@@ -14,7 +14,7 @@
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #6c7279;
+	color: #323232;
 }
 h1 {
 	font-size: 43px;
@@ -65,7 +65,7 @@ h5 {
 	Global Styles
 -------------------------------------------------------------------------------*/
 a {
-	color: #e84545;
+	color: #323232;
 }
 a:hover, a:focus {
 	text-decoration: none;
@@ -106,8 +106,8 @@ ul li {
 	font-weight: 400;
 }
 .section-intro {
-	margin:5% 10% 12% 10%;
-	color: #636363;
+	margin:5% 10% 5% 10%;
+	color: #2d3033;
 	font-size:14px;
 	line-height:21px;
 	font-weight: 300;
@@ -150,6 +150,9 @@ ul li {
 }
 #header.fixed .nav-toggle {
 	top: 18px;
+}
+#photoID {
+	position: float;
 }
 .navigation.open {
 	opacity: 0.9;
@@ -378,6 +381,9 @@ div#samir {
 
 #overview .container {
 	margin-top: 180px;
+}
+div#samPresentation {
+    text-align: center;
 }
 /* ------------------------------------------------------------------------------
 	Feature 1

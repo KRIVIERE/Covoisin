@@ -24,20 +24,40 @@
 <!-- header section -->
 <section class="banner" role="banner">
   <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="#"><img src="images/logo_covoisin_white2.png" alt=""></a>
+  	<div class="row align-items-center">
+  		<div class="col-md-2 offset-md-4">
+    		<div class="header-content clearfix"> <a class="logo" href="#"><img src="images/logo_covoisin_white2.png" alt=""></a>
+    		</div>
+    
+    <!-- TODO : COPIER LA PARTIE POUR LE HEADER DE KEVIN -->
+    <!-- infos de connexion -->
+  		<div class="col-md-2 offset-md-4 ">
+      		<nav class="navigation" role="navigation">
+        		<ul class="primary-nav">
+          			<li><div id="photoID"><img src="images/portrait-bruno-rond2.png" alt="photoID"></div></a></li><br>
+         			<li><div id="salutation">Bonjour Daniel DUPONT</div></li><br>
+          			<li><div id="points">Vous disposez de 40 points</div></li><br>
+       			</ul>
+      		</nav>
+     	</div>
+    <!-- /infos de connexion -->
+
       <!-- navigation section  -->
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-          <li><a href="#banner">Accueil</a></li>
-          <li><a href="#overview">Services</a></li>
-          <li><a href="#features">Compétences</a></li>
-          <li><a href="#screens">Prêts</a></li>
-          <li><a href="#download">Dons</a></li>
+   		<div class="col-md-6 offset-md-3">
+      		<nav class="navigation" role="navigation">
+        		<ul class="primary-nav">
+          			<li><a href="accueil.html">Accueil</a></li>
+          			<li><a href="#">Services</a></li>
+          			<li><a href="#">Compétences</a></li>
+          			<li><a href="#">Prêts</a></li>
+          			<li><a href="listCatView.php">Dons</a></li>
           
-        </ul>
-      </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+        		</ul>
+      		</nav>
+      <a href="#" class="nav-toggle">Menu</a>
+
     <!-- navigation section  -->
+    </div>
   </header>
   <!-- banner text section-->
   <div id="banner" class="container">
@@ -52,31 +72,31 @@
 <!-- overview section -->
 <section id="overview" class="section overview">
     <div class="container">
-        <div class="row">
-            <div align="justify" "center">
-            <div class="col-md-3 col-sm-12 logo"> <img src="images/noun_1113265_cc.png" width=50px; height=50px; alt="Dons">
+        <div id="samPresentation" class="row">
+            <div text-align= "center">
+            <div class="col-md-3 col-sm-12 logo"> <img src="images/noun_1113265_cc.png" height=50px; alt="Dons">
                 <div class="overview-content">
-                    <h4>DONS</h4>
+                    <h4><a href="listCatView.php">DONS</a></h4>
                     <p> Un livre, un outil, ou quelque chose qui ne vous sert plus chez vous… Offrez vos objets à vos voisins !
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 "> <img src="images/noun_225624_cc.png" width=50px; height=50px; alt="compétences"></img>
+            <div class="col-md-3 col-sm-12 "> <img src="images/noun_225624_cc.png" height=50px; alt="compétences"></img>
                 <div class="overview-content">
-                    <h4>COMPÉTENCES</h4>
+                    <h4><a href="#">COMPÉTENCES</a></h4>
                     <p>Cuisine, bricolage, couture, dessin… Partagez vos savoirs-faire entre voisins !
                     </p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 "> <img src="images/noun_406880_cc.png" width=50px; height=50px; alt="prêts"></img>
+            <div class="col-md-3 col-sm-12 "> <img src="images/noun_406880_cc.png" height=50px; alt="prêts"></img>
                 <div class="overview-content">
-                    <h4>PRÊTS</h4>
+                    <h4><a href="#">PRÊTS</a></h4>
                     <p> Appareil à raclette, outil, livre, vélo.. partagez vos objets pour qu’ils ne prennent pas la poussière !</p>
                 </div>
             </div>
-            <div class="col-md-3 col-sm-12 "> <img src="images/noun_542812_cc.png" width=50px; height=50px; alt="services"></img>
+            <div class="col-md-3 col-sm-12 "> <img src="images/noun_542812_cc.png" height=50px; alt="services"></img>
                 <div class="overview-content">
-                    <h4>SERVICES</h4>
+                    <h4><a href="#">SERVICES</a></h4>
                     <p>Transport des enfants à l’école, garde d’animaux, covoiturage, emménagement… Proposez et trouvez des services !</p>
                 </div>
             </div>

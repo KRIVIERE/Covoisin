@@ -14,7 +14,7 @@
 p {
 	font-size: 14px;
 	line-height: 22.4px;
-	color: #848587;
+	color: #323232;
 }
 h1 {
 	font-size: 43px;
@@ -23,7 +23,7 @@ h1 {
 }
 h2 {
 	font-size: 30px;
-	color: #000;
+	color: #323232;
 	font-weight:100;
 }
 h3 {
@@ -90,6 +90,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
+	color: white;
 	-moz-transition: background-color, color, 0.3s;
 	-o-transition: background-color, color, 0.3s;
 	-webkit-transition: background-color, color, 0.3s;
@@ -108,7 +109,7 @@ ul li {
 	list-style: none;
 }
 .section {
-	padding: 100px 0;
+	padding: 75px 0;
 }
 .no-padding {
 	padding: 0;
@@ -117,13 +118,22 @@ ul li {
 	padding-right: 0;
 	padding-left: 0;
 }
-.section-title {
+#section-title {
+	text-align: center;
 	margin-top: 0;
 	letter-spacing:2px;
-	color:#009698;
+	color:#323232;
+	font-size: 30px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .section-title1{
-color:#009698;	
+	color:#323232;
+	font-size: 20px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .section-title span {
 	font-weight: 400;
@@ -162,14 +172,6 @@ color:#009698;
 	-o-transition: padding 0.3s;
 	-webkit-transition: padding 0.3s;
 	transition: padding 0.3s;
-}
-#block
-{
-background-color: #d3d7cf;
-width: 300px;
-heigth: 150px;
--moz-border-radius: 10px; // Pour Firefox
--webkit-border-radius: 10px; // Pour Safari et Chrome
 }
 #header .logo {
 	float: left;
@@ -410,7 +412,7 @@ heigth: 150px;
 }
 
 #overview {
-	background-image:url("../images/patterne2.png");
+	background-image:url("../images/patterne3.png");
 }
 .overview-content p {
 	font-family: "Roboto", sans-serif;
@@ -428,6 +430,20 @@ heigth: 150px;
 	width:800px;
 	height:450px;
 }
+#block {
+background-color: #d3d7cf;
+margin-bottom: 80px;
+padding: 0;
+width: 1130px;
+heigth: 300px;
+border-radius: 100px;
+-moz-border-radius: 10px; // Pour Firefox
+-webkit-border-radius: 10px; // Pour Safari et Chrome
+}
+div.row#interPresentation {
+	margin-top= 100px;
+}
+
 /* ------------------------------------------------------------------------------
 	Feature 1
 -------------------------------------------------------------------------------*/
