@@ -382,8 +382,12 @@ div#samir {
 #overview .container {
 	margin-top: 180px;
 }
+
 div#samPresentation {
     text-align: center;
+
+#overview #listCat {
+	margin-top: 150px;
 }
 /* ------------------------------------------------------------------------------
 	Feature 1
@@ -652,18 +656,18 @@ div#samPresentation {
 -------------------------------------------------------------------------------*/
 .footer {
 	text-align: center;
-	background-color:#009698;
+	background-color:#323232;
 }
 .footer p {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #323232;
+	color: #FFFFFF;
 	
 }
 .footer p > a {
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
-	color: #323232;
+	color: #FFFFFF;
 	
 }
 .footer a {

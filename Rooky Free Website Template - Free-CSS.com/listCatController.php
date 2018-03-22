@@ -15,4 +15,4 @@ $offres = $offreDao->readAllOffre();
 $demandeDao = new DemandeDao($config);
 $demandes = $demandeDao->readAllDemande();
 
-require('../views/listCatView.php');
+require('listCatView.php');
