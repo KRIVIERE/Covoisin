@@ -151,9 +151,7 @@ ul li {
 #header.fixed .nav-toggle {
 	top: 18px;
 }
-#photoID {
-	position: float;
-}
+
 .navigation.open {
 	opacity: 0.9;
 	visibility: visible;
@@ -384,7 +382,8 @@ div#samir {
 }
 
 div#samPresentation {
-    text-align: center;
+	text-align: center;
+}
 
 #overview #listCat {
 	margin-top: 150px;

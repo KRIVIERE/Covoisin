@@ -39,7 +39,7 @@
                     <li><a href="#overview">Services</a></li>
                     <li><a href="#features">Compétences</a></li>
                     <li><a href="#screens">Prêts</a></li>
-                    <li><a href="#download">Dons</a></li>
+                    <li><a href="listCatController.php">Dons</a></li>
 
                 </ul>
             </nav>
@@ -67,6 +67,7 @@
                 <thead>
                 <tr>
                     <th>Date</th>
+                    <th>Auteur</th>
                     <th>Titre</th>
                     <th>Catégorie</th>
                     <th>Description</th>
@@ -76,16 +77,23 @@
 
                 <tbody>
                 <?php
+
+                $users = ["Samir Boukhana", "JC Vizzi", "Meriem Ayati"];
+
+                $i = 0;
+
                 foreach ($offres as $offre) {
                     ?>
                     <tr>
                         <td><?php echo $offre->date;?></td>
+                        <td><?php echo $users[$i] ?></td>
                         <td><?php echo $offre->titre;?></td>
                         <td><?php echo $offre->categorie;?></td>
                         <td><?php echo $offre->description;?></td>
                         <td>10</td>
                     </tr>
                     <?php
+                    $i++;
                 }
                 ?>
                 </tbody>
@@ -99,6 +107,7 @@
                 <thead>
                 <tr>
                     <th>Date</th>
+                    <th>Auteur</th>
                     <th>Titre</th>
                     <th>Catégorie</th>
                     <th>Description</th>
@@ -108,16 +117,23 @@
 
                 <tbody>
                 <?php
+
+                $users2 = ["Charly Thevenin", "Mathieu Ranchon", "Guillaume Tatuszka"];
+
+                $j = 0;
+
                 foreach ($demandes as $demande) {
                     ?>
                     <tr>
                         <td><?php echo $demande->date;?></td>
+                        <td><?php echo $users2[$j] ?></td>
                         <td><?php echo $demande->titre;?></td>
                         <td><?php echo $demande->categorie;?></td>
                         <td><?php echo $demande->description;?></td>
                         <td>10</td>
                     </tr>
                     <?php
+                    $j++;
                 }
                 ?>
                 </tbody>
